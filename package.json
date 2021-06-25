@@ -1,0 +1,25 @@
+{
+  "name": "npmjs-sample",
+  "version": "1.0.0",
+  "description": "Uma demonstração do npm publish com o semantic-release versão 17 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirlarof/npmjs-sample.git"
+  },
+  "keywords": [
+    "semantic-release-npmjs"
+  ],
+  "author": "Mirla Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirlarof/npmjs-sample/issues"
+  },
+  "homepage": "https://github.com/mirlarof/npmjs-sample#readme",
+  "dependencies": {
+    "semantic-release": "^17.4.4"
+  }
+}
