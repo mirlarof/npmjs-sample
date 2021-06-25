@@ -4,7 +4,8 @@
   "description": "Uma demonstração do npm publish com o semantic-release versão 17 ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release --prepare"
   },
   "repository": {
     "type": "git",
