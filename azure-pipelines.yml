@@ -26,4 +26,4 @@ extends:
     type: javascript
     to: semantic-release
     npmCmds:
-    - 'npm install'
+    - npm install
