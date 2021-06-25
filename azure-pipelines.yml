@@ -27,5 +27,3 @@ extends:
     to: semantic-release
     npmCmds:
     - 'npm install'
-    - 'npm run test'
-    - 'npm run build'
