@@ -1,5 +1,4 @@
-
 function (){
-	console.log("Sample Semantic-release-npmjs - v1")
+  console.log("Sample semantic-release-npmjs - v1");
 }
 
