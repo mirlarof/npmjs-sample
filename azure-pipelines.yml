@@ -19,6 +19,13 @@ resources:
     name: Operações/template-take-blip
     ref: refs/heads/feature/npm-semantic-release
 
+az pipelines runs tag add --run-id
+                          --tags
+                          [--detect {false, true}]
+                          [--org]
+                          [--project]
+                          [--subscription]
+
 extends:
   template: template-pipeline.yml@templates    
   parameters:    
