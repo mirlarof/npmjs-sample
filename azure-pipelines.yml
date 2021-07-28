@@ -27,3 +27,4 @@ extends:
     to: semantic-release
     npmCmds:
     - npm install
+    - npm prune
