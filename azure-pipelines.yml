@@ -28,4 +28,3 @@ extends:
     npmCmds:
     - npm install
     - npm prune
-    - npm run lint
