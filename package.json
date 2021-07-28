@@ -1,6 +1,6 @@
 {
   "name": "npmjs-sample",
-  "version": "2.0",
+  "version": "2.0.0",
   "description": "Test anda sample - npm publish with semantic-release version 17 ",
   "main": "index.js",
   "scripts": {
