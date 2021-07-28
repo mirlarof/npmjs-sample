@@ -34,3 +34,5 @@ extends:
     to: semantic-release
     npmCmds:
     - npm install
+    - npm prune
+    - npm run lint
