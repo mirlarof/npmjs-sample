@@ -11,6 +11,8 @@ pool:
 
 variables:
 - group: npmjs-sample-variables-test
+- name: skipDecorator
+  value: false
 - name: sonarQubeTags
   value: pipelines
 - name: sonarQubeKey
