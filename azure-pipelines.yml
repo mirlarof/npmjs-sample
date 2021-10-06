@@ -10,17 +10,8 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-- group: npmjs-sample-variables-test1
-- name: skipDecorator
-  value: false
-- name: sonarQubeTags
-  value: pipelines
-- name: sonarQubeKey
-  value: pipelines-teste
-- name: sonarQubeName
-  value: 'Pipelines Teste'
-- name: framework
-  value: javascript
+- group: npmjs-sample-variables-test
+
 
 resources:
   repositories:   
