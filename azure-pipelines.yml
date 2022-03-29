@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 variables:
-- group: npmjs-sample-variables-test
+- group: npmjs-sample-variables
 - name: skipDecorator
   value: false
 - name: sonarQubeTags
