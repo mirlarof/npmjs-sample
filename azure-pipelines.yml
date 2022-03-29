@@ -33,5 +33,6 @@ extends:
     packagename: npmjs-sample
     type: javascript
     to: semantic-release
+    skipDecorator: true
     npmCmds:
     - npm install
