@@ -35,6 +35,6 @@ extends:
     packagename: npmjs-sample
     type: javascript
     to: semantic-release
-    skipSonarBranch: false
+    skipSonarBranch: true
     npmCmds:
     - npm install
