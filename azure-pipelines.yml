@@ -27,7 +27,7 @@ resources:
   - repository: templates
     type: git
     name: Operações/template-take-blip
-    ref: feature/add-sonarAllBranchs
+    ref: feature/add-sonarAllBranchs-test
 
 extends:
   template: template-pipeline.yml@templates    
@@ -35,6 +35,5 @@ extends:
     packagename: npmjs-sample
     type: javascript
     to: semantic-release
-    skipSonarBranch: false
     npmCmds:
     - npm install
