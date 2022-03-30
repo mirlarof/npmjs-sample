@@ -27,7 +27,7 @@ resources:
   - repository: templates
     type: git
     name: Operações/template-take-blip
-    ref: feature/add-sonarAllBranchs-test
+    ref: feature/add-sonarAllBranchs
 
 extends:
   template: template-pipeline.yml@templates    
