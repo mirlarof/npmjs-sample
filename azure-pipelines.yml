@@ -11,13 +11,23 @@ pool:
 
 variables:
 - group: npmjs-sample-variables
+- name: skipDecorator
+  value: false
+- name: sonarQubeTags
+  value: pipelines
+- name: sonarQubeKey
+  value: pipelines-teste
+- name: sonarQubeName
+  value: 'Pipelines Teste'
+- name: framework
+  value: javascript
 
 resources:
   repositories:   
   - repository: templates
     type: git
     name: Operações/template-take-blip
-    ref: refs/heads/feature/npm-semantic-release
+    ref: feature/add-sonarAllBranchs-test
 
 extends:
   template: template-pipeline.yml@templates    
@@ -27,4 +37,3 @@ extends:
     to: semantic-release
     npmCmds:
     - npm install
-    - npm prune
